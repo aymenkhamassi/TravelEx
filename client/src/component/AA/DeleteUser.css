@@ -1,0 +1,48 @@
+
+.containeer{
+  background-color: #a88b76;
+  height: 1000PX;
+
+}
+.containere {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding a box shadow effect */
+    background-color: rgb(157, 156, 163);
+    padding-top: 9%;
+  }
+  
+  .warning-title {
+    color: red;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .delete-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  

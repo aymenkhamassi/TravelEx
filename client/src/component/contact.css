@@ -1,0 +1,43 @@
+
+.contact-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .contact-method {
+    margin: 20px;
+    
+  }
+
+
+  .phone-icon {
+    width: 40px; 
+    height: 40px; 
+  }
+
+
+  .twitter-logo {
+    width: 40px;
+    height: 40px; 
+  }
+
+
+  .twitter-link {
+    text-decoration: none;
+    color: #1da1f2; 
+  }
+
+
+
+.email-icon {
+    width: 40px; 
+    height: 40px; 
+}
+
+
+  .contact-methodd {
+    font-style: italic;
+  }
+  

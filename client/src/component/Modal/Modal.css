@@ -1,0 +1,113 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.add_post {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: 42%;
+}
+
+.add_post>img {
+  width: 40px;
+  height: 40px;
+}
+
+.add_post>button {
+  width: 200px;
+}
+
+.post {
+  border: 1px solid chocolate;
+  display: flex;
+  width: 80%;
+  margin: 10px 10%;
+  height: 250px;
+
+}
+
+.postModal {
+  border: 1px solid chocolate;
+  display: flex;
+  width: 80%;
+
+  width: 500px;
+  height: 500px;
+
+}
+
+.post_image {
+  width: 30%;
+  height: 30%;
+  padding: 10px 10px;
+}
+
+.user_image {
+  width: 40px;
+  height: 40px;
+}
+
+.position {
+  width: 30px;
+  height: 30px;
+}
+
+.block2 {
+  height: 150px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  /* align-items: flex-start; */
+}
+
+.pos_style {
+  display: flex;
+  align-items: center;
+}
+
+.bas_post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.FormComment{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(73, 72, 72);
+}
